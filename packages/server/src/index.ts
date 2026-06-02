@@ -54,6 +54,7 @@ import { Credential } from './entity/Credential'
 import { Tool } from './entity/Tool'
 import { ChatflowPool } from './ChatflowPool'
 import { ICommonObject, INodeOptionsValue } from 'flowise-components'
+import { registerCareerRoutes } from './career/routes'
 
 export class App {
     app: express.Application
@@ -751,6 +752,12 @@ export class App {
                 return res.status(500).send(err?.message)
             }
         })
+
+        // ----------------------------------------
+        // Career Lab HQ routes
+        // ----------------------------------------
+
+        registerCareerRoutes(this.app, this.AppDataSource)
 
         // ----------------------------------------
         // Serve UI static
