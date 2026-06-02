@@ -1,8 +1,92 @@
 // assets
-import { IconHierarchy, IconBuildingStore, IconKey, IconTool, IconLock } from '@tabler/icons'
+import {
+    IconHierarchy,
+    IconBuildingStore,
+    IconKey,
+    IconTool,
+    IconLock,
+    IconBriefcase,
+    IconClipboardList,
+    IconMap,
+    IconCalendarCheck,
+    IconTrophy,
+    IconMessages,
+    IconChartBar
+} from '@tabler/icons'
 
 // constant
-const icons = { IconHierarchy, IconBuildingStore, IconKey, IconTool, IconLock }
+const icons = {
+    IconHierarchy,
+    IconBuildingStore,
+    IconKey,
+    IconTool,
+    IconLock,
+    IconBriefcase,
+    IconClipboardList,
+    IconMap,
+    IconCalendarCheck,
+    IconTrophy,
+    IconMessages,
+    IconChartBar
+}
+
+// ==============================|| CAREER LAB MENU ITEMS ||============================== //
+
+const careerLab = {
+    id: 'career-lab',
+    title: 'Career Lab HQ',
+    type: 'group',
+    children: [
+        {
+            id: 'career-lab-dashboard',
+            title: 'Career Lab HQ',
+            type: 'item',
+            url: '/career-lab',
+            icon: icons.IconBriefcase,
+            breadcrumbs: true
+        },
+        {
+            id: 'career-lab-assessments',
+            title: 'Assessments',
+            type: 'item',
+            url: '/career-lab/scores',
+            icon: icons.IconClipboardList,
+            breadcrumbs: true
+        },
+        {
+            id: 'career-lab-blueprint',
+            title: 'My Blueprint',
+            type: 'item',
+            url: '/career-lab/blueprint',
+            icon: icons.IconMap,
+            breadcrumbs: true
+        },
+        {
+            id: 'career-lab-checkin',
+            title: 'Weekly Check-In',
+            type: 'item',
+            url: '/career-lab/checkin',
+            icon: icons.IconCalendarCheck,
+            breadcrumbs: true
+        },
+        {
+            id: 'career-lab-evidence',
+            title: 'Evidence Vault',
+            type: 'item',
+            url: '/career-lab/evidence',
+            icon: icons.IconTrophy,
+            breadcrumbs: true
+        },
+        {
+            id: 'career-lab-conversation',
+            title: 'Conversation Prep',
+            type: 'item',
+            url: '/career-lab/conversation-prep',
+            icon: icons.IconMessages,
+            breadcrumbs: true
+        }
+    ]
+}
 
 // ==============================|| DASHBOARD MENU ITEMS ||============================== //
 
@@ -54,4 +138,5 @@ const dashboard = {
     ]
 }
 
+export { careerLab }
 export default dashboard

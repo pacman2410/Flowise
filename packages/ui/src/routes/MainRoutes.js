@@ -19,6 +19,16 @@ const Tools = Loadable(lazy(() => import('views/tools')))
 // credentials routing
 const Credentials = Loadable(lazy(() => import('views/credentials')))
 
+// Career Lab routing
+const CareerLabDashboard = Loadable(lazy(() => import('views/career-lab/Dashboard')))
+const TakeAssessment = Loadable(lazy(() => import('views/career-lab/TakeAssessment')))
+const ScoreReport = Loadable(lazy(() => import('views/career-lab/ScoreReport')))
+const CareerBlueprint = Loadable(lazy(() => import('views/career-lab/CareerBlueprint')))
+const WeeklyCheckIn = Loadable(lazy(() => import('views/career-lab/WeeklyCheckIn')))
+const EvidenceVault = Loadable(lazy(() => import('views/career-lab/EvidenceVault')))
+const ConversationPrep = Loadable(lazy(() => import('views/career-lab/ConversationPrep')))
+const CareerLandingPage = Loadable(lazy(() => import('views/career-lab/LandingPage')))
+
 // ==============================|| MAIN ROUTING ||============================== //
 
 const MainRoutes = {
@@ -48,6 +58,38 @@ const MainRoutes = {
         {
             path: '/credentials',
             element: <Credentials />
+        },
+        {
+            path: '/career-lab',
+            element: <CareerLabDashboard />
+        },
+        {
+            path: '/career-lab/assessment/:type',
+            element: <TakeAssessment />
+        },
+        {
+            path: '/career-lab/scores',
+            element: <ScoreReport />
+        },
+        {
+            path: '/career-lab/blueprint',
+            element: <CareerBlueprint />
+        },
+        {
+            path: '/career-lab/checkin',
+            element: <WeeklyCheckIn />
+        },
+        {
+            path: '/career-lab/evidence',
+            element: <EvidenceVault />
+        },
+        {
+            path: '/career-lab/conversation-prep',
+            element: <ConversationPrep />
+        },
+        {
+            path: '/career-lab/offer/:offerType',
+            element: <CareerLandingPage />
         }
     ]
 }
