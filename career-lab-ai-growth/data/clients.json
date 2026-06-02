@@ -1,0 +1,56 @@
+[
+  {
+    "id": "client_001",
+    "business": "Promotion Readiness Plan",
+    "owner": "Rita Gomez",
+    "email": "rita@example.com",
+    "package": "Professional",
+    "status": "active",
+    "startDate": "2026-06-01",
+    "nextReview": "2026-06-08",
+    "manager": "Career Lab Success",
+    "metrics": {
+      "careerHealth": 78,
+      "goalProgress": 64,
+      "aiRecommendations": 12,
+      "humanReviews": 2
+    },
+    "support": {
+      "priority": "Standard",
+      "included": ["Portal tickets", "AI coaching", "Career Blueprint tracking"],
+      "responseWindow": "1 business day"
+    },
+    "approvalQueue": [
+      "Complete promotion evidence inventory",
+      "Draft manager conversation agenda",
+      "Update 30-day visibility plan"
+    ]
+  },
+  {
+    "id": "client_002",
+    "business": "Layoff Recovery Plan",
+    "owner": "Cam Patel",
+    "email": "cam@example.com",
+    "package": "Premium",
+    "status": "active",
+    "startDate": "2026-06-01",
+    "nextReview": "2026-06-05",
+    "manager": "Career Lab Success",
+    "metrics": {
+      "careerHealth": 71,
+      "goalProgress": 52,
+      "aiRecommendations": 18,
+      "humanReviews": 4
+    },
+    "support": {
+      "priority": "Priority",
+      "included": ["Priority portal tickets", "human coaching", "resume and interview review"],
+      "responseWindow": "4 business hours"
+    },
+    "approvalQueue": [
+      "Review transition positioning",
+      "Practice behavioral interview stories",
+      "Finalize target role shortlist"
+    ]
+  }
+]

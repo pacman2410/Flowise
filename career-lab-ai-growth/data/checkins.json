@@ -1,0 +1,18 @@
+[
+  {
+    "id": "checkin_1780351088871",
+    "momentum": 76,
+    "recommendation": "Complete one specific career action before adding more tasks.",
+    "nextAction": "Choose one action that improves your lowest score component.",
+    "escalation": "No human escalation required yet.",
+    "createdAt": "2026-06-01T21:58:08.872Z"
+  },
+  {
+    "id": "checkin_1780336347190",
+    "momentum": 64,
+    "recommendation": "Complete one specific career action before adding more tasks.",
+    "nextAction": "ask manager for criteria",
+    "escalation": "No human escalation required yet.",
+    "createdAt": "2026-06-01T17:52:27.191Z"
+  }
+]

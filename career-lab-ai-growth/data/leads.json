@@ -1,0 +1,26 @@
+[
+  {
+    "id": "lead_001",
+    "business": "Promotion Readiness Plan",
+    "owner": "Rita Gomez",
+    "email": "rita@example.com",
+    "careerGoal": "Move from senior IC to team lead",
+    "status": "qualified",
+    "score": 92,
+    "nextAction": "Send Professional onboarding and first blueprint prompt",
+    "source": "Career assessment",
+    "createdAt": "2026-06-01T12:00:00.000Z"
+  },
+  {
+    "id": "lead_002",
+    "business": "Layoff Recovery Plan",
+    "owner": "Cam Patel",
+    "email": "cam@example.com",
+    "careerGoal": "Structured plan for next opportunity",
+    "status": "human-review",
+    "score": 78,
+    "nextAction": "Coach review for transition strategy",
+    "source": "Career Lab AI intake",
+    "createdAt": "2026-06-01T12:10:00.000Z"
+  }
+]

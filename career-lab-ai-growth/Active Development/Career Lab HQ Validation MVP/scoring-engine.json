@@ -1,0 +1,68 @@
+{
+  "scale": {
+    "min": 1,
+    "max": 5,
+    "normalization": "((average_response - 1) / 4) * 100"
+  },
+  "career_health_score": {
+    "career_clarity": 0.2,
+    "role_alignment": 0.15,
+    "readiness_for_next_move": 0.2,
+    "skill_development": 0.15,
+    "relationships_and_influence": 0.15,
+    "action_consistency": 0.15
+  },
+  "promotion_readiness_score": {
+    "results": 0.25,
+    "visibility": 0.2,
+    "relationships": 0.15,
+    "leadership_signals": 0.15,
+    "strategic_thinking": 0.15,
+    "influence": 0.1
+  },
+  "leadership_readiness_score": {
+    "feedback": 0.2,
+    "coaching": 0.15,
+    "delegation": 0.15,
+    "accountability": 0.15,
+    "communication": 0.15,
+    "trust": 0.2
+  },
+  "new_manager_readiness_score": {
+    "role_transition": 0.15,
+    "delegation": 0.15,
+    "difficult_conversations": 0.15,
+    "team_management": 0.2,
+    "communication": 0.15,
+    "prioritization": 0.2
+  },
+  "bands": {
+    "career_health_score": [
+      { "min": 0, "max": 39, "label": "At Risk" },
+      { "min": 40, "max": 59, "label": "Unclear" },
+      { "min": 60, "max": 74, "label": "Stable" },
+      { "min": 75, "max": 89, "label": "Building Momentum" },
+      { "min": 90, "max": 100, "label": "High Momentum" }
+    ],
+    "promotion_readiness_score": [
+      { "min": 0, "max": 49, "label": "Not Ready To Ask" },
+      { "min": 50, "max": 69, "label": "Build Evidence First" },
+      { "min": 70, "max": 84, "label": "Prepare Promotion Case" },
+      { "min": 85, "max": 100, "label": "Ready For Conversation" }
+    ],
+    "leadership_readiness_score": [
+      { "min": 0, "max": 39, "label": "Individual Contributor Mindset" },
+      { "min": 40, "max": 59, "label": "Informal Leader" },
+      { "min": 60, "max": 74, "label": "Emerging Manager" },
+      { "min": 75, "max": 89, "label": "Reliable People Leader" },
+      { "min": 90, "max": 100, "label": "Strategic Leader" }
+    ],
+    "new_manager_readiness_score": [
+      { "min": 0, "max": 39, "label": "Needs Foundation" },
+      { "min": 40, "max": 59, "label": "Emerging But Inconsistent" },
+      { "min": 60, "max": 74, "label": "Ready With Support" },
+      { "min": 75, "max": 89, "label": "Strong New Manager Candidate" },
+      { "min": 90, "max": 100, "label": "High Readiness" }
+    ]
+  }
+}

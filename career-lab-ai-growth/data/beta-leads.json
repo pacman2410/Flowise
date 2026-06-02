@@ -1,0 +1,82 @@
+[
+  {
+    "id": "report_1780336347191",
+    "track": "promotion",
+    "offerName": "Promotion Readiness Diagnostic",
+    "name": "Test User",
+    "email": "test@example.com",
+    "target": "Get promoted to manager",
+    "careerHealth": {
+      "score": 55,
+      "band": "Unclear",
+      "components": {
+        "clarity": 75,
+        "alignment": 50,
+        "readiness": 50,
+        "skill": 75,
+        "relationships": 25,
+        "consistency": 50
+      }
+    },
+    "readiness": {
+      "score": 45,
+      "band": "Not Ready To Ask",
+      "components": {
+        "results": 75,
+        "visibility": 25,
+        "relationships": 25,
+        "leadership": 50,
+        "strategy": 50,
+        "influence": 25
+      }
+    },
+    "strengths": [
+      {
+        "key": "clarity",
+        "label": "Career Clarity",
+        "score": 75
+      },
+      {
+        "key": "skill",
+        "label": "Skill Development",
+        "score": 75
+      },
+      {
+        "key": "results",
+        "label": "Results",
+        "score": 75
+      }
+    ],
+    "blockers": [
+      {
+        "key": "relationships",
+        "label": "Relationships And Influence",
+        "score": 25
+      },
+      {
+        "key": "visibility",
+        "label": "Visibility",
+        "score": 25
+      },
+      {
+        "key": "influence",
+        "label": "Influence",
+        "score": 25
+      }
+    ],
+    "nextActions": [
+      "Map three people who influence your next move and choose one useful touchpoint.",
+      "Send one concise impact update that connects your work to a business priority.",
+      "Prepare a stakeholder-specific version of your recommendation before the next meeting."
+    ],
+    "blueprint": {
+      "outcome": "Create measurable progress toward: Get promoted to manager.",
+      "day30": "Complete evidence inventory and manager expectation check.",
+      "day60": "Increase visibility with stakeholders and package strategic impact.",
+      "day90": "Prepare a credible promotion conversation and follow-up plan.",
+      "successMetric": "Complete at least one career action per week and improve the lowest score component."
+    },
+    "escalation": "Human review optional after the first two weekly check-ins or if blockers repeat.",
+    "createdAt": "2026-06-01T17:52:27.191Z"
+  }
+]
