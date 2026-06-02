@@ -44,3 +44,6 @@
 
 ## compressed
 **/*.tgz
+
+## claude code agent worktrees
+.claude/
